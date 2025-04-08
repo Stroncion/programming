@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+</head>
+<body>
+    <script>
+       let x1, d1, d2, d3, sum, prod;
+
+       x1 = parseInt(prompt("Введите трёхзначное число ", 123));
+       d1 = x1 % 10; // единицы
+       d2 = Math.floor(x1/10) % 10; // дестяки
+       console.log(d1); // а
+       console.log(d2); // б
+       d3 = Math.floor(x1/100) % 10; // сотни
+
+       sum = d1 + d2 + d3; //сумма
+       console.log(sum); //в
+       prod = d1 * d2 * d3; // произв
+       console.log(prod); //г
+
+
+</script>
+</body>
+</html>
